@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.DS_Store
+artifacts/models/*.joblib
+artifacts/metrics/*.json
+artifacts/registry/*.json
+data/processed/*
+!data/processed/.gitkeep
+logs/
+*.log
